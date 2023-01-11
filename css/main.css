@@ -52,6 +52,20 @@ footer.horizontal {
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../image/model-1.png");
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.about-bgImg-container .about__bio-image {
+  text-align: center;
+}
+.about-bgImg-container .about__bio-image h2 {
+  font-size: 3rem;
+  color: #ff652f;
+}
+.about-bgImg-container .about__bio-image p {
+  font-size: 1.2rem;
+  margin: 2rem;
 }
 
 .home-bgImage-container {
