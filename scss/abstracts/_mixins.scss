@@ -1,0 +1,10 @@
+//***************** Mixins ***********/
+
+
+
+
+@mixin transition($sec) {
+    transition: all $sec;
+}
+
+//!👆 transitionu artık istediğim dosyamda @include deyip deger atayarak kullanabilirim (yanı istediğim sayfamın her yerinde bu bana pratiklik katıyor.)Bu projemde navbarın içöinde kullandım.
