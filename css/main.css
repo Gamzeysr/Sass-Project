@@ -29,4 +29,48 @@
   color: #ff652f;
 }
 
+.home-bgImage-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../image/model-1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.home {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.home_name {
+  font-size: 5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #fff;
+}
+.home_name-last {
+  color: rgb(131, 31, 64);
+  font-weight: 700;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  color: #eee;
+  background-color: #272727;
+  height: 100vh;
+}
+
+a {
+  color: #eee;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=main.css.map */

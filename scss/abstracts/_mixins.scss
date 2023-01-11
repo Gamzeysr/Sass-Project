@@ -8,3 +8,16 @@
 }
 
 //!👆 transitionu artık istediğim dosyamda @include deyip deger atayarak kullanabilirim (yanı istediğim sayfamın her yerinde bu bana pratiklik katıyor.)Bu projemde navbarın içöinde kullandım.
+
+@mixin bgImage($height, $url) {
+    height: $height;
+    width: 100%;
+    background: linear-gradient(to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.3)),
+        // 👆bu renkten bu renge dogru git demek bu 
+        url($url);
+    background-position: center;
+    background-size: cover;
+
+}
