@@ -4,4 +4,25 @@
   box-sizing: border-box;
 }
 
+.nav {
+  border: 2px solid red;
+  padding: 1rem;
+  height: 10vh;
+}
+.nav_list {
+  text-align: right;
+}
+.nav_item {
+  display: inline;
+  padding: 1rem;
+}
+.nav_link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+.nav_link:hover {
+  color: yellowgreen;
+}
+
 /*# sourceMappingURL=main.css.map */

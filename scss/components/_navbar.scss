@@ -1,0 +1,30 @@
+//*************NAVBAR*************//
+.nav {
+    border: 2px solid red;
+    padding: 1rem;
+    height: 10vh;
+
+    &_list {
+        text-align: right;
+
+
+
+    }
+
+    &_item {
+        display: inline;
+        padding: 1rem;
+
+    }
+
+    &_link {
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+            color: yellowgreen;
+        }
+
+    }
+}
