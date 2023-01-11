@@ -1,1 +1,26 @@
+//***********Base  içindekiler import👇****///
 @import "./base/reset";
+
+
+
+//***********Abstract  içindekiler import👇****///
+
+@import "./abstracts/mixins";
+@import "./abstracts/variable";
+
+
+
+//***********Components içindekiler import👇****///
+
+@import "./components/footer";
+@import "./components/navbar";
+@import "./components/responsive";
+
+
+
+//***********Pages içindekiler import👇****///
+
+@import "./pages/about";
+@import "./pages/contact";
+@import "./pages/home";
+@import "./pages/projects";
