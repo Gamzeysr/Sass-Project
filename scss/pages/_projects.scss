@@ -41,11 +41,10 @@
         &::after {
             content: '';
             height: 100%;
-            width: 100;
+            width: 100%;
             background-color: $secondary-color;
             position: absolute;
             left: 0;
-            width: 100%;
             opacity: 0;
 
         }

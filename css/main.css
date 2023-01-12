@@ -169,11 +169,10 @@ footer.vertical .copyright {
 .projects__item::after {
   content: "";
   height: 100%;
-  width: 100;
+  width: 100%;
   background-color: #ff652f;
   position: absolute;
   left: 0;
-  width: 100%;
   opacity: 0;
 }
 .projects__item:hover::after {
