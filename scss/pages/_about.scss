@@ -23,3 +23,31 @@
     }
 
 }
+
+.about {
+    // border: 2px solid blueviolet;
+
+    &__container {
+        // border: 2px solid blueviolet;
+        width: 70vw;
+        margin: 2rem auto;
+    }
+
+    &__job {
+        margin: 1rem;
+        background: lighten($primary-color, 12%);
+        padding: 1rem;
+        border-bottom: 5px solid $secondary-color;
+
+        h2,
+        h3 {
+            margin: 0.5em 0;
+        }
+
+        h6 {
+            margin: 0.5rem 0;
+            font-family: $font-family;
+            font-size: large;
+        }
+    }
+}
