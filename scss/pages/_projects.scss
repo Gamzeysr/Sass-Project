@@ -13,22 +13,45 @@
 }
 
 .projects {
-    &__İtems {
+
+    // border: 2px solid red;
+    // 👇bu butun resimleri kapsayan div 
+    &__items {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         padding: 2rem 5rem;
-        gap: 1rem 0;
+        gap: 2rem 0;
     }
 
+    //👇buda her bir resmi kapsayan tek bir div 
     &__item {
+        // border: 2px solid red;
         width: 100%;
         cursor: pointer;
         border-bottom: 5px solid $secondary-color;
+        position: relative;
+
 
         img {
             width: 100%;
+        }
+
+        &::after {
+            content: '';
+            height: 100%;
+            width: 100;
+            background-color: $secondary-color;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            opacity: 0;
+
+        }
+
+        &:hover::after {
+            opacity: 0.7;
         }
     }
 }
