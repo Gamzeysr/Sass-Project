@@ -108,6 +108,37 @@ footer.vertical .copyright {
   font-size: large;
 }
 
+.contact-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../image/model-1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.contact {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 3rem;
+}
+.contact__list {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+}
+.text-secondary {
+  color: #ff652f;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .home-bgImage-container {
   height: 100vh;
   width: 100%;

@@ -1,0 +1,39 @@
+.contact-bgImg-container {
+    @include bgImage(100vh, $main-bgImage-path)
+}
+
+.contact {
+    // border: solid red;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    &__list {
+        // border: 2px solid palegoldenrod;
+        display: flex;
+        justify-content: center;
+        // margin: auto;
+        padding: 1rem;
+        gap: 2.5rem;
+        font-size: 1.5rem;
+
+
+    }
+
+    &__item {}
+
+}
+
+.text-secondary {
+    // border: solid red;
+    color: $secondary-color;
+    font-weight: 600;
+    font-family: $font-family;
+
+}
