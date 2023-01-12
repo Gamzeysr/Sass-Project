@@ -1,10 +1,14 @@
 .contact-bgImg-container {
-    @include bgImage(100vh, $main-bgImage-path)
+    @include bgImage(100vh, $main-bgImage-path);
+
+    nav {
+        height: 40vh;
+    }
 }
 
 .contact {
     // border: solid red;
-    height: 70vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
